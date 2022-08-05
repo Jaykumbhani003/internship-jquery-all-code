@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({ left: '250px' });
+                $("div").animate({ right: '250px' });
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <button>Start  rotate Animation</button>
+
+    <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember</p>
+
+    <div style="background:#fc5102;height:100px;width:100px;position:absolute; rotate: 90;"></div>
+
+</body>
+
+</html>
